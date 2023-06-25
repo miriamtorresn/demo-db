@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "pkief.material-icon-theme",
+    "wayou.vscode-todo-highlight",
+    "yzhang.markdown-all-in-one",
+    "editorconfig.editorconfig",
+    "mongodb.mongodb-vscode"
+  ]
+}

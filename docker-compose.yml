@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  mongodb:
+    container_name: demo-db
+    ports:
+      - "27017:27017"
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+    volumes:
+      - "db:/data/db"
+volumes:
+  db: {}
