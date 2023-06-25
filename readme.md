@@ -31,7 +31,7 @@ docker rm demo-db
 ### Enter mongo basj
 
 ```sh
-exec mongodb bash
+docker-compose exec mongodb bash
 ```
 
 ### Access to the shell (mongosh)
